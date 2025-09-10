@@ -37,7 +37,7 @@ const CommunitySection = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: 0.4 }}
                         >
-                            Connect with fellow parents, share your child's progress, and get support from our team in our exclusive Slack community.
+                            Connect with fellow parents, share your child&apos;s progress, and get support from our team in our exclusive Slack community.
                         </motion.p>
                         
                         <motion.div

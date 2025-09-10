@@ -53,7 +53,7 @@ const CoursesSection = () => {
                         </h2>
                         <p className="hero-subtitle text-xl max-w-3xl mx-auto">
                             From visual programming to real code, we have the perfect course 
-                            to match your child's age and skill level.
+                            to match your child&apos;s age and skill level.
                         </p>
                     </motion.div>
 
@@ -111,7 +111,7 @@ const CoursesSection = () => {
 
                                     {/* Projects */}
                                     <div className="mb-8">
-                                        <h4 className="font-bold mb-3 text-black">What You'll Build:</h4>
+                                        <h4 className="font-bold mb-3 text-black">What You&apos;ll Build:</h4>
                                         <div className="space-y-2">
                                             {course.projects.map((project, idx) => (
                                                 <motion.div 

@@ -61,7 +61,7 @@ const FeaturesSection = () => {
                             WHY KIDS <span className="text-[#df15bc]">LOVE</span> CODING WITH US
                         </h2>
                         <p className="hero-subtitle text-xl max-w-3xl mx-auto">
-                            We've designed every aspect of our platform to make learning to code 
+                            We&apos;ve designed every aspect of our platform to make learning to code 
                             as exciting and engaging as possible for young minds.
                         </p>
                     </motion.div>

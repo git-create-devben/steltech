@@ -58,7 +58,7 @@ const PricingSection = () => {
                             SIMPLE <span className="text-[#df15bc]">PRICING</span> FOR EVERY FAMILY
                         </h2>
                         <p className="hero-subtitle text-xl max-w-3xl mx-auto">
-                            Choose the perfect plan for your child's coding journey. 
+                            Choose the perfect plan for your child&apos;s coding journey. 
                             All plans include our fun, interactive learning platform and caring mentors.
                         </p>
                     </motion.div>

@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
                             HEAR FROM OUR <span className="text-[#df15bc]">YOUNG</span> CODERS
                         </h2>
                         <p className="hero-subtitle text-xl max-w-3xl mx-auto">
-                            Don't just take our word for it - see what our students and their parents 
+                            Don&apos;t just take our word for it - see what our students and their parents 
                             have to say about their coding journey with us.
                         </p>
                     </motion.div>
@@ -93,7 +93,7 @@ const TestimonialsSection = () => {
                                     
                                     {/* Quote */}
                                     <blockquote className="text-gray-700 text-center mb-6 italic leading-relaxed">
-                                        "{testimonial.quote}"
+                                        &quot;{testimonial.quote}&quot;
                                     </blockquote>
                                     
                                     {/* Student Info */}
@@ -154,7 +154,7 @@ const TestimonialsSection = () => {
                                     
                                     {/* Quote */}
                                     <blockquote className="text-gray-700 text-center mb-4 italic">
-                                        "{parent.quote}"
+                                        &quot;{parent.quote}&quot;
                                     </blockquote>
                                     
                                     {/* Parent Info */}
