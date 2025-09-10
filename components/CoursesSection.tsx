@@ -143,28 +143,6 @@ const CoursesSection = () => {
                             </motion.div>
                         ))}
                     </div>
-
-                    {/* Bottom CTA */}
-                    {/* <motion.div 
-                        className="text-center bg-white border-2 border-black rounded-2xl p-8 relative"
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
-                        whileHover={{ y: -5 }}
-                    >
-                        <div className="absolute top-2 left-2 w-full h-full bg-black rounded-2xl -z-10"></div>
-                        <h3 className="text-2xl font-bold mb-4">Not sure which course to choose?</h3>
-                        <p className="text-gray-600 mb-6">Take our quick assessment to find the perfect starting point for your child!</p>
-                        <motion.div
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                        >
-                            <SlackButton className="!bg-[#df15bc] text-white">
-                                Take Assessment
-                            </SlackButton>
-                        </motion.div>
-                    </motion.div> */}
                 </div>
             </section>
         </SectionWrapper>
