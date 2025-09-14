@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <motion.header 
-            className="w-full px-6 py-6 bg-[#eee4ec] sticky top-0 z-50"
+            className="w-full px-6 py-3 bg-[#eee4ec] sticky top-0 z-50"
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}

@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function SlackButton({ children, className, ...props }: { children: React.ReactNode, className?:string }) {
+function SlackButton({ children, className, ...props }: { children: React.ReactNode, className?:string, onClick?: () => void }) {
     return (
         <motion.div 
             className="relative inline-block"
@@ -19,6 +19,7 @@ function SlackButton({ children, className, ...props }: { children: React.ReactN
 
             {/* Main Button */}
             <motion.button 
+                onClick={props.onClick}
                 {...props} 
                 className={`relative px-8 py-3 bg-white border border-black rounded-xl font-medium transition-all duration-200 ${className}`}
                 whileHover={{ x: -1, y: -1 }}

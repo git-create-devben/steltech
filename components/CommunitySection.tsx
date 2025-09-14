@@ -18,7 +18,7 @@ const CommunitySection = () => {
                         transition={{ duration: 0.8 }}
                         whileHover={{ y: -10, scale: 1.02 }}
                     >
-                        <div className="absolute top-2 left-2 w-full h-full bg-black rounded-2xl -z-10"></div>
+                        {/* <div className="absolute top-2 left-2 w-full h-full bg-black/45 rounded-2xl -z-10"></div> */}
                         
                         <motion.h2 
                             className="hero-title text-4xl md:text-5xl mb-6"

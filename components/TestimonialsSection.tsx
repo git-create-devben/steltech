@@ -120,7 +120,7 @@ const TestimonialsSection = () => {
                         transition={{ duration: 0.6 }}
                         whileHover={{ y: -5 }}
                     >
-                        <div className="absolute top-2 left-2 w-full h-full bg-black rounded-2xl -z-10"></div>
+                        {/* <div className="absolute top-2 left-2 w-full h-full bg-black rounded-2xl -z-10"></div> */}
                         
                         <h3 className="text-2xl font-bold text-center mb-8">What Parents Say</h3>
                         

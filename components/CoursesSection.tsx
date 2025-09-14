@@ -69,7 +69,7 @@ const CoursesSection = () => {
                                 transition={{ duration: 0.6, delay: index * 0.2 }}
                                 whileHover={{ y: -10, scale: 1.02 }}
                             >
-                                {/* Shadow Element */}
+                                {/* uncomment if you want to show Shadow Element */}
                                 {/* <div className="absolute top-3 left-3 w-full h-full bg-black rounded-2xl"></div> */}
                                 
                                 {/* Main Card */}
