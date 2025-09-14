@@ -10,9 +10,9 @@ const Footer = () => {
                         <p className="text-sm">Empowering the next generation of innovators.</p>
                     </div>
                     <div className="flex gap-6">
-                        <a href="/about" className="hover:text-[#df15bc] transition-colors">About</a>
-                        <a href="/courses" className="hover:text-[#df15bc] transition-colors">Courses</a>
-                        <a href="/contact" className="hover:text-[#df15bc] transition-colors">Contact</a>
+                        <a href="#about" className="hover:text-[#df15bc] transition-colors">About</a>
+                        <a href="#courses" className="hover:text-[#df15bc] transition-colors">Courses</a>
+                        {/* <a href="#contact" className="hover:text-[#df15bc] transition-colors">Contact</a> */}
                     </div>
                 </div>
                 <div className="mt-8 border-t border-gray-800 pt-4 text-center text-sm text-gray-500">
